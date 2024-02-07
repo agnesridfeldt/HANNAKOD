@@ -1,0 +1,82 @@
+
+.startMenu {
+	background-image: url("1920MENY.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	min-height: 100%;
+	min-width: 1024px;
+	min-height: 1220px;
+
+	width: 100%;
+	height: auto;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	
+}
+
+.logga {
+	background-image: url(loggan.png);
+	background-repeat: no-repeat;
+	background-size: 500px;
+	margin-left: 470px;
+	margin-right: auto;
+	margin-top: 350px;
+
+
+	min-height: 100%;
+	min-width: 1024px;
+	min-height: 1080px;
+
+	width: 50%;
+	height: fit-content;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+
+
+.flex-container > div:hover {
+	background-color: rgba(0, 0, 0, 0.117);
+}
+
+.flex-container > div {
+	display: flex;
+}
+
+
+a {
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	margin: 40px;
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
+}
+
+
+.headline {
+	font-family: "Manrope", sans-serif;
+	text-align: center;
+	margin-top: 630px;
+	font-size: 40px;
+
+}
+
+.h2 {
+	font-family: "Manrope", sans-serif;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+.p1 {
+	font-family: "Manrope", sans-serif;
+}
